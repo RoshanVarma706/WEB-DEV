@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8ecc0" />
+      <stop offset="45%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#a67c1a" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="18" fill="#a3221c" />
+  <g transform="translate(50,50)">
+    <path d="M0 -34 L34 0 L0 34 L-34 0 Z" fill="#3b2a20" stroke="url(#g)" stroke-width="5" />
+    <path d="M0 -26 L26 0 L0 26 L-26 0 Z" fill="none" stroke="#fff9ef" stroke-width="2" />
+  </g>
+  <text
+    x="50"
+    y="58"
+    text-anchor="middle"
+    fill="url(#g)"
+    font-family="Jost,Segoe UI,system-ui,sans-serif"
+    font-weight="700"
+    font-size="20"
+  >
+    SP
+  </text>
+</svg>
